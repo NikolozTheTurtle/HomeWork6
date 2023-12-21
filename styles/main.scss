@@ -1,0 +1,120 @@
+@import url('./poppins.css');
+
+
+body {
+    header::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        background-color: black;
+        opacity: 0.6;
+    }
+    header {
+        position: relative;   
+        background-image: url(../assets/nav-back.png);
+        background-size: cover;
+        nav {
+            position: relative;
+            padding: 32px 0 0 0;
+            .container {
+                display: flex;
+                justify-content: space-between;
+                .logo {
+                    text-decoration: none;
+                    font: bold normal Poppins 14px;
+                    font-family: Poppins;
+                    font-size: 14px;
+                    font-weight: bold;
+                    font-style: normal;
+                    color: white;
+                    text-align: left;
+                }
+                ul {
+                    display: flex;
+                    gap: 62px;
+                    li {
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            font-family: Poppins;
+                            font-size: 12px;
+                            font-weight: normal;
+                            font-style: normal;
+                            text-align: center;
+                            
+                        }
+                        .active {
+                            color: #5863F8;
+                        }
+                    }
+                }
+            }
+        }
+        .sub-nav {
+            position: relative;
+            padding: 103px 0 86px 0;
+            .container {
+                h1 {
+                    font-family: "Poppins";
+                    font-size: 42px;
+                    font-weight: normal;
+                    font-style: normal;
+                    text-align: left;
+                    color: #ffffff;
+                    display: inline-block;
+                }
+                ul {
+                    margin-top: 21px;
+                
+                    display: flex;
+                    li {
+                        a {
+                            font-family: Poppins;
+                            text-decoration: none;
+                            color: white;
+                            font-size: 14px;
+                            font-weight: 500;
+                            font-style: normal;
+                            text-align: left;
+                        }
+                    }
+                    li:nth-child(1){
+                        padding-right: 17px;
+                        border-right: 1px solid whitesmoke;
+                    }
+                    li:nth-child(2){
+                        padding-left: 17px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+
+
+@media (min-width: 768px) {
+.container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1088px;
+    }
+  }
