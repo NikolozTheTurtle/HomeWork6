@@ -135,10 +135,70 @@ body section .container .cards .card .btn {
   background-color: #5863F8;
   padding: 0 23px;
 }
+body .reservation {
+  margin-top: 55px;
+  background-color: #F8F8F8;
+}
+body .reservation form {
+  padding: 55px 0;
+  display: flex;
+  gap: 16px;
+}
+body .reservation form .form-row {
+  align-self: flex-end;
+}
+body .reservation form .form-row label {
+  font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 500;
+  color: #5863f8;
+  display: inline-block;
+  margin-bottom: 6px;
+}
+body .reservation form .form-row input {
+  display: block;
+  width: 260px;
+  max-width: 260px;
+  border: 2px solid #EBEBEB;
+  font-family: Poppins;
+  font-size: 13px;
+  color: #CECECE;
+  padding: 23px 0 21px 20px;
+}
+body .reservation form .form-row input[type=number] {
+  padding: 24px 0 22px 20px;
+}
+body .reservation form button {
+  height: fit-content;
+  align-self: flex-end;
+  border: 0;
+  background-color: #5863F8;
+  color: white;
+  padding: 24.5px 91px;
+  font-family: "Poppins";
+  font-size: 13px;
+}
+body .reservation form button .fa {
+  padding-left: 10px;
+}
 
 .container {
   width: 100%;
   margin: auto;
+}
+
+.no-placeholder::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+/* For Firefox */
+.no-placeholder::-moz-calendar-picker-indicator {
+  display: none;
+}
+
+/* For Edge */
+.no-placeholder::-ms-clear {
+  display: none;
 }
 
 @media (min-width: 768px) {
