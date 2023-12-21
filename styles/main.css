@@ -29,7 +29,6 @@ body header nav .container .logo {
   font-family: Poppins;
   font-size: 14px;
   font-weight: bold;
-  font-style: normal;
   color: white;
   text-align: left;
 }
@@ -43,7 +42,6 @@ body header nav .container ul li a {
   font-family: Poppins;
   font-size: 12px;
   font-weight: normal;
-  font-style: normal;
   text-align: center;
 }
 body header nav .container ul li .active {
@@ -57,7 +55,6 @@ body header .sub-nav .container h1 {
   font-family: "Poppins";
   font-size: 42px;
   font-weight: normal;
-  font-style: normal;
   text-align: left;
   color: #ffffff;
   display: inline-block;
@@ -72,7 +69,6 @@ body header .sub-nav .container ul li a {
   color: white;
   font-size: 14px;
   font-weight: 500;
-  font-style: normal;
   text-align: left;
 }
 body header .sub-nav .container ul li:nth-child(1) {
@@ -81,6 +77,63 @@ body header .sub-nav .container ul li:nth-child(1) {
 }
 body header .sub-nav .container ul li:nth-child(2) {
   padding-left: 17px;
+}
+body section {
+  margin-top: 92px;
+}
+body section .container .sub-header {
+  display: inline-block;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: bold;
+  color: #5863f8;
+}
+body section .container .section-header {
+  font-family: "Poppins";
+  font-size: 42px;
+  font-weight: normal;
+  line-height: 56px;
+  width: 15ch;
+}
+body section .container .cards {
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+body section .container .cards .card {
+  display: flex;
+  width: 49%;
+  margin-bottom: 16px;
+}
+body section .container .cards .card .card-body {
+  background-color: #F8F8F8;
+  padding: 39px 0 0 16px;
+}
+body section .container .cards .card .card-body .card-sub-header {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: bold;
+  color: #5863f8;
+  padding-bottom: 4px;
+}
+body section .container .cards .card .card-body .card-header {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: normal;
+  padding-bottom: 11px;
+}
+body section .container .cards .card .card-body .card-content {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  color: #b1b1b1;
+  width: 84%;
+}
+body section .container .cards .card .btn {
+  border: 0;
+  background-color: #5863F8;
+  padding: 0 23px;
 }
 
 .container {

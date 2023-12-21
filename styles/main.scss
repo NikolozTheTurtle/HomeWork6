@@ -29,7 +29,6 @@ body {
                     font-family: Poppins;
                     font-size: 14px;
                     font-weight: bold;
-                    font-style: normal;
                     color: white;
                     text-align: left;
                 }
@@ -43,7 +42,6 @@ body {
                             font-family: Poppins;
                             font-size: 12px;
                             font-weight: normal;
-                            font-style: normal;
                             text-align: center;
                             
                         }
@@ -62,7 +60,6 @@ body {
                     font-family: "Poppins";
                     font-size: 42px;
                     font-weight: normal;
-                    font-style: normal;
                     text-align: left;
                     color: #ffffff;
                     display: inline-block;
@@ -78,7 +75,6 @@ body {
                             color: white;
                             font-size: 14px;
                             font-weight: 500;
-                            font-style: normal;
                             text-align: left;
                         }
                     }
@@ -93,11 +89,73 @@ body {
             }
         }
     }
-}
+    section {
+        margin-top: 92px;
+        .container {
+            .sub-header {
+                display: inline-block;
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: bold;
+                color: #5863f8;
+            }
+            .section-header {
+                font-family: "Poppins";
+                font-size: 42px;
+                font-weight: normal;
+                line-height: 56px;
+                width: 15ch;
+            }
+            .cards {
+                margin-top: 55px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .card{
+                    display: flex;
+                    width: 49%;
+                    margin-bottom: 16px;
+                    img {
 
+                    }
+                    .card-body {
+                        background-color: #F8F8F8;
+                        padding: 39px 0 0 16px;
+                        .card-sub-header {
+                            font-family: "Poppins";
+                            font-size: 14px;
+                            font-weight: bold;
+                            color: #5863f8;
+                            padding-bottom: 4px;
+                        }
+                        .card-header {
+                            font-family: "Poppins";
+                            font-size: 18px;
+                            font-weight: normal;
+                            padding-bottom: 11px;
+                        }
+                        .card-content {
+                            font-family: "Poppins";
+                            font-size: 14px;
+                            font-weight: 500;
+                            color: #b1b1b1;
+                            width: 84%;
+                        }
+                    }
+                    .btn {
+                        border: 0;
+                        background-color: #5863F8;
+                        padding: 0 23px;
+                    }
+                }
+            }
+        }   
+    }  
+}
 
 .container {
     width: 100%;
+    
     margin: auto;
 }
 
