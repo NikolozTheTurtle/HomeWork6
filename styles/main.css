@@ -181,6 +181,104 @@ body .reservation form button {
 body .reservation form button .fa {
   padding-left: 10px;
 }
+body footer {
+  background-color: #121212;
+  padding-top: 93px;
+}
+body footer .container .footer-main {
+  display: flex;
+  justify-content: space-between;
+}
+body footer .container .footer-main .desc h3 {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-bottom: 23px;
+}
+body footer .container .footer-main .desc p {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  color: #b1b1b1;
+  padding-bottom: 20px;
+  width: 30ch;
+  max-width: 100%;
+}
+body footer .container .footer-main .desc .logos {
+  display: flex;
+  gap: 10px;
+}
+body footer .container .footer-main .desc .logos .logo-wrapper {
+  width: 35px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3B5998;
+}
+body footer .container .footer-main .desc .logos .logo-wrapper:nth-child(2) {
+  background-color: #55ACEE;
+}
+body footer .container .footer-main .desc .logos .logo-wrapper:nth-child(3) {
+  background-color: #DC4E41;
+}
+body footer .container .footer-main .links-contact {
+  display: flex;
+}
+body footer .container .footer-main .links-contact nav h4 {
+  font-family: "Poppins";
+  font-size: 18px;
+  color: #ffffff;
+  padding-bottom: 23px;
+}
+body footer .container .footer-main .links-contact nav ul li {
+  padding-bottom: 13px;
+  width: fit-content;
+}
+body footer .container .footer-main .links-contact nav ul li a {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  color: #5863f8;
+  text-decoration: none;
+  width: fit-content;
+}
+body footer .container .footer-main .links-contact .useful {
+  margin-right: 90px;
+}
+body footer .container .footer-main .links-contact .privacy {
+  margin-right: 113px;
+}
+body footer .container .footer-main .links-contact .contact {
+  margin-right: 78px;
+}
+body footer .container .footer-main .links-contact .contact a {
+  color: white;
+}
+body footer .container .footer-foot {
+  margin-top: 56px;
+  padding-bottom: 41px;
+  display: flex;
+  justify-content: space-between;
+}
+body footer .container .footer-foot .cr {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+body footer .container .footer-foot .cr span {
+  color: #5863f8;
+}
+body footer .container .footer-foot a {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  color: #5863f8;
+  text-decoration: none;
+}
 
 .container {
   width: 100%;
