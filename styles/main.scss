@@ -311,19 +311,6 @@ body {
     width: 100%;
     margin: auto;
 }
-.no-placeholder::-webkit-calendar-picker-indicator {
-    display: none;
-}
-
-/* For Firefox */
-.no-placeholder::-moz-calendar-picker-indicator {
-    display: none;
-}
-
-/* For Edge */
-.no-placeholder::-ms-clear {
-    display: none;
-}
 
 
 

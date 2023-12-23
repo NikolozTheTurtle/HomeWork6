@@ -285,20 +285,6 @@ body footer .container .footer-foot a {
   margin: auto;
 }
 
-.no-placeholder::-webkit-calendar-picker-indicator {
-  display: none;
-}
-
-/* For Firefox */
-.no-placeholder::-moz-calendar-picker-indicator {
-  display: none;
-}
-
-/* For Edge */
-.no-placeholder::-ms-clear {
-  display: none;
-}
-
 @media (min-width: 768px) {
   .container {
     width: 750px;
